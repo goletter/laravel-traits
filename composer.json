@@ -1,0 +1,41 @@
+{
+    "name": "goletter/laravel-traits",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "goletter",
+            "email": "goletter@outlook.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "laravel",
+        "resource"
+    ],
+    "description": "A Laravel extension package with custom traits",
+    "autoload": {
+        "psr-4": {
+            "Goletter\\Traits\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Goletter\\Resource\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "laravel/framework": "^12.17"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "co-phpunit -c phpunit.xml --colors=always",
+        "analyse": "phpstan analyse --memory-limit 300M -l 5 ./src",
+        "cs-fix": "php-cs-fixer fix $1"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
