@@ -21,7 +21,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Goletter\\Resource\\Tests\\": "tests/"
+            "Goletter\\Traits\\Tests\\": "tests/"
         }
     },
     "require": {
