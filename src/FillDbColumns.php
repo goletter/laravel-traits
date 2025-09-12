@@ -1,5 +1,7 @@
 <?php
 
+namespace Goletter\Traits;
+
 use Illuminate\Support\Facades\Schema;
 
 trait FillDbColumns

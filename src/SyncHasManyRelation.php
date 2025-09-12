@@ -1,4 +1,5 @@
 <?php
+namespace Goletter\Traits;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
